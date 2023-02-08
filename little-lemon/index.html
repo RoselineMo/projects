@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- the layout below was designed WITHOUT bootstrap-->
+    <h1>Our Menu</h1>
+    <h2>Falafel</h2>
+    <p>Chickpea, herbs and spices</p>
+    <img src="images/falafel.jpg" width="240" height="135" alt="A falafel" />
+    <h2>Pasta Salad</h2>
+    <p>Lettuce, vegetables and mozzarella</p>
+    <img src="images/salad.jpg" width="240" height="135" alt="A pasta salad" />
+    <a href="location.html">Our Location</a>
+    <table id="table">
+      <tr>
+        <th>Dish</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Falafel</td>
+        <td>$10.00</td>
+      </tr>
+      <tr>
+        <td>Pasta Salad</td>
+        <td>$12.00</td>
+      </tr>
+    </table>
+
+    <div class="parent">
+      <div class="child"></div>
+    </div>
+    <!-- the layout below was designed USING bootstrap-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg6">
+          <h1>Our Menu</h1>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <span class="badge bg-primary">New</span>
+                  <h2 class="card-title">Fried Calamari</h2>
+                  <p class="card-text">Squid, buttermilk, lime, tomato sauce</p>
+                </div>
+                <img src="images/fried-calamari.jpg" alt="A fried calamari" class="card-img-bottom">
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h2>Falafel</h2>
+                  <p>Chickpea, herbs and spices</p>
+                </div>
+                <img src="images/falafel.jpg" alt="A falafel" class="card-img-bottom">
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h2>Pasta Salad</h2>
+                  <p>Lettuce, vegetables and mozzarella</p>
+                </div>
+                <img src="images/salad.jpg" alt="A pasta salad" class="card-img-bottom">
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h2>Chicken Burger</h2>
+                  <p>Chicken, lettuce, tomato, mayo</p>
+                </div>
+                <img src="images/chicken-burger.jpg" alt="A chicken burger" class="card-img-bottom">
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h2>Beef Burger</h2>
+                  <p>Beef, lettuce, tomato and fries on the side</p>
+                </div>
+                <img src="images/beef-burger.jpg" alt="A beef burger" class="card-img-bottom">
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-12 col-lg6">
+          <h2>Prices</h2>
+          <table class="table">
+            <tr>
+              <td>Fried Calamari</td>
+              <td>$14.50</td>
+            </tr>
+            <tr>
+              <td>Falafel</td>
+              <td>$10.00</td>
+            </tr>
+            <tr>
+              <td>Pasta Salad</td>
+              <td>$12.00</td>
+            </tr>
+            <tr>
+              <td>Chicken Burger</td>
+              <td>$10.50</td>
+            </tr>
+            <tr>
+              <td>Beef Burger</td>
+              <td>$10.50</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="alert alert-info" role="alert">
+            Try our new Fried Calamari!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    </script>
+  </body>
+</html>
